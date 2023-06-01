@@ -5,14 +5,16 @@ from clientes import *
 
 def exibir_menu():
     print("----- MENU -----")
+    print("Seleciona uma opção para continuar:")
+    print("                              ")
     print("1. Adicionar motocicleta")
     print("2. Listar motocicletas")
-    print("3. Buscar motocicleta")
+    print("3. Buscar uma  motocicleta em específico")
     print("4. Atualizar motocicleta")
     print("5. Remover motocicleta")
     print("6. Adicionar cliente")
     print("7. Listar clientes")
-    print("8. Buscar cliente")
+    print("8. Buscar um cliente em específico")
     print("9. Atualizar cliente")
     print("10. Remover cliente")
     print("0. Sair")
